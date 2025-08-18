@@ -1,0 +1,31 @@
+.experience-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.experience-item .role {
+    margin: 0;
+    color: #00c7ff;
+}
+
+.experience-item .svg {
+    fill: white;
+    width: 40px;
+}
+
+.experience-item .duration {
+    color: #c1c1c1;
+}
+
+.experience-item .description {
+    font-weight: 500;
+}
+
+.description-list {
+    padding: 0 10px;
+}
+
+.description-list li{
+    padding: 5px 0;
+}

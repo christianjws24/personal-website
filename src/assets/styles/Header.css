@@ -1,0 +1,113 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to bottom, black, transparent);
+    z-index: 1000; 
+    box-sizing: border-box;
+    padding: 0 100px;
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.nav-ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-a:hover {
+    color: #fdff00;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Ajustes responsive */
+@media (max-width: 640px) {
+    .nav-container {
+        padding: 0 20px;
+    }
+
+    .logo {
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-ul {
+        position: absolute;
+        top: -15px;
+        right: 0;
+        width: 60%;
+        background-color: black;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+        display: none;
+        height: 100vh;
+        padding: 100px 0px;
+        gap: 40px;
+        font-size: 26px;
+    }
+
+    .nav-ul.show {
+        display: flex;
+    }
+
+    .nav-li{
+    border-bottom: 2px solid white;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 10px;
+    }
+}
