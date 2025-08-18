@@ -20,7 +20,6 @@ function App() {
         <Technologies />
         <Contact />
       </main>
-
       <Footer />
     </>
   )
