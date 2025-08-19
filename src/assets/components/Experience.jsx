@@ -7,7 +7,7 @@ export default function Experience() {
         <section className="experience-section">
             <h2 className="experience-title">Experience</h2>
             <ExperienceItem 
-                img="/src/assets/job.png"
+                img="./src/assets/job.png"
                 role="Junior Front-End"
                 company="Deepcommpany"
                 duration="Octuber 2022 - September 2023"
