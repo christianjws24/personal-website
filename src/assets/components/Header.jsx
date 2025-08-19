@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import '../styles/Header.css';
 
 export default function Header() {
-  const items = ['Home', 'About', 'Projects', 'Contact'];
+  const items = ['About', 'Experience', 'Projects', 'Technologies', 'Contact'];
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <nav className="nav-container">
-      <a href="#" className="logo">CHRISDEV</a>
+      <a href="#home" className="logo">CHRISDEV</a>
 
 
       <div className={`hamburger ${isOpen ? "active" : ""}`} onClick={toggleMenu}>

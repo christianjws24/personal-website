@@ -13,7 +13,7 @@ export default function Contact() {
         "service_5v9qi6g", 
         "template_lpyy7zk", 
         form.current,
-        "9eKTmDsu6d4_uEA0A" // Ej: public_xyz789
+        "9eKTmDsu6d4_uEA0A" 
       )
       .then(
         () => {

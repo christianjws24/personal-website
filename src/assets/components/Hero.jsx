@@ -26,7 +26,7 @@ export default function Hero() {
           </button>
         </a>
         <DownloadButton 
-          fileUrl=""
+          fileUrl="/src/assets/files/Christian-Wilhelm-CV.pdf"
           fileName="Christian Wilhelm CV"
           buttonText="Download CV" 
         />

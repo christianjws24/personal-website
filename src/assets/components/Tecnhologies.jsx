@@ -3,7 +3,7 @@ import "../styles/Technologies.css"
 
 export default function Technologies() {
     return (
-        <section className="technologies-section">
+        <section id="technologies" className="technologies-section">
             <h1 className="">Tecnhnologies</h1>
             <div className="">
                 <p className="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem officiis aperiam incidunt minima est, adipisci amet? Assumenda nesciunt eveniet reiciendis odit obcaecati aperiam vel quam laboriosam provident adipisci, veniam dignissimos.</p>
@@ -13,32 +13,32 @@ export default function Technologies() {
                 <TechnologiesItem
                     title="Frontend"
                     skills={[
-                        { title: "HTML", img: "./src/assets/html.svg" },
-                        { title: "CSS", img: "./src/assets/css.svg" },
-                        { title: "JavaScript", img: "./src/assets/js.svg" },
-                        { title: "React", img: "./src/assets/react.svg" },
-                        { title: "SASS", img: "./src/assets/sass.svg" },
-                        { title: "Bootstrap", img: "./src/assets/bootstrap.svg" },
-                        { title: "TailwindCSS", img: "./src/assets/tailwind.svg" },
-                        { title: "Figma", img: "./src/assets/figma.svg" },
+                        { title: "HTML", img: "/src/assets/icons/html.svg" },
+                        { title: "CSS", img: "/src/assets/icons/css.svg" },
+                        { title: "JavaScript", img: "/src/assets/icons/js.svg" },
+                        { title: "React", img: "/src/assets/icons/react.svg" },
+                        { title: "SASS", img: "/src/assets/icons/sass.svg" },
+                        { title: "Bootstrap", img: "/src/assets/icons/bootstrap.svg" },
+                        { title: "TailwindCSS", img: "/src/assets/icons/tailwind.svg" },
+                        { title: "Figma", img: "/src/assets/icons/figma.svg" },
                     ]}
                 />
 
                 <TechnologiesItem
                     title="Learning"
                     skills={[
-                        { title: "Next.js", img: "./src/assets/nextjs.svg" },
-                        { title: "Typescript", img: "./src/assets/typescript.svg" },
+                        { title: "Next.js", img: "/src/assets/icons/nextjs.svg" },
+                        { title: "Typescript", img: "/src/assets/icons/typescript.svg" },
                     ]}
                 />
 
                 <TechnologiesItem
                     title="Tools"
                     skills={[
-                        { title: "Git", img: "./src/assets/git.svg" },
-                        { title: "Github", img: "./src/assets/github.svg" },
-                        { title: "Wordpress", img: "./src/assets/wordpress.svg" },
-                        { title: "VS Code", img: "./src/assets/vscode.svg" },
+                        { title: "Git", img: "/src/assets/icons/git.svg" },
+                        { title: "Github", img: "/src/assets/icons/github.svg" },
+                        { title: "Wordpress", img: "/src/assets/icons/wordpress.svg" },
+                        { title: "VS Code", img: "/src/assets/icons/vscode.svg" },
                     ]}
                 />
             </div>

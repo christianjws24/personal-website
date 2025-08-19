@@ -4,13 +4,13 @@ import '../styles/Experience.css'
 
 export default function Experience() {
     return (
-        <section className="experience-section">
+        <section id="experience" className="experience-section">
             <h2 className="experience-title">Experience</h2>
             <ExperienceItem 
-                img="./src/assets/job.png"
+                img="/src/assets/images/job.png"
                 role="Junior Front-End"
                 company="Deepcommpany"
-                duration="Octuber 2022 - September 2023"
+                duration="October 2022 - September 2023"
                 description={[
                                 "Created and maintained UI components using React.",
                                 "Developed responsive page layouts using HTML, CSS, and Bootstrap.",
