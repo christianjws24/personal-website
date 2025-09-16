@@ -11,7 +11,7 @@ export default function About() {
       </div>
       <div className='about-img-container'>
         <div className="about-img">
-          <img src="/public/images/me.jpg" alt="" className="" />
+          <img src="/images/me.jpg" alt="" className="" />
         </div>
       </div>
 

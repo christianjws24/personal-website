@@ -13,31 +13,31 @@ export default function Technologies() {
                 <TechnologiesItem
                     title="Frontend"
                     skills={[
-                        { title: "HTML", img: "/public/icons/html.svg" },
-                        { title: "CSS", img: "/public/icons/css.svg" },
-                        { title: "JavaScript", img: "/public/icons/js.svg" },
-                        { title: "React", img: "/public/icons/react.svg" },
-                        { title: "SASS", img: "/public/icons/sass.svg" },
-                        { title: "Bootstrap", img: "/public/icons/bootstrap.svg" },
-                        { title: "TailwindCSS", img: "/public/icons/tailwind.svg" },
-                        { title: "Figma", img: "/public/icons/figma.svg" },
+                        { title: "HTML", img: "/icons/html.svg" },
+                        { title: "CSS", img: "/icons/css.svg" },
+                        { title: "JavaScript", img: "/icons/js.svg" },
+                        { title: "React", img: "/icons/react.svg" },
+                        { title: "SASS", img: "/icons/sass.svg" },
+                        { title: "Bootstrap", img: "/icons/bootstrap.svg" },
+                        { title: "TailwindCSS", img: "/icons/tailwind.svg" },
+                        { title: "Figma", img: "/icons/figma.svg" },
                     ]}
                 />
 
                 <TechnologiesItem
                     title="Backend"
                     skills={[
-                        { title: "NestJs", img: "/public/icons/nestjs.svg" },
+                        { title: "NestJs", img: "/icons/nestjs.svg" },
                     ]}
                 />
 
                 <TechnologiesItem
                     title="Learning"
                     skills={[
-                        { title: "Next.js", img: "/public/icons/nextjs.svg" },
-                        { title: "Typescript", img: "/public/icons/typescript.svg" },
-                        { title: "Flutter", img: "/public/icons/flutter.svg" },
-                        { title: "Python", img: "/public/icons/python.svg" },
+                        { title: "Next.js", img: "/icons/nextjs.svg" },
+                        { title: "Typescript", img: "/icons/typescript.svg" },
+                        { title: "Flutter", img: "/icons/flutter.svg" },
+                        { title: "Python", img: "/icons/python.svg" },
 
                     ]}
                 />
@@ -45,11 +45,11 @@ export default function Technologies() {
                 <TechnologiesItem
                     title="Tools"
                     skills={[
-                        { title: "Git", img: "/public/icons/git.svg" },
-                        { title: "Github", img: "/public/icons/github.svg" },
-                        { title: "Wordpress", img: "/public/icons/wordpress.svg" },
-                        { title: "VS Code", img: "/public/icons/vscode.svg" },
-                        { title: "n8n", img: "/public/icons/n8n.svg" },
+                        { title: "Git", img: "/icons/git.svg" },
+                        { title: "Github", img: "/icons/github.svg" },
+                        { title: "Wordpress", img: "/icons/wordpress.svg" },
+                        { title: "VS Code", img: "/icons/vscode.svg" },
+                        { title: "n8n", img: "/icons/n8n.svg" },
                     ]}
                 />
             </div>
