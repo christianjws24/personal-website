@@ -2,3 +2,44 @@
     padding: 50px 0 100px;
 }
 
+.experience-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .experience-section {
+        padding: 40px 0 80px;
+    }
+    
+    .experience-title {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .experience-section {
+        padding: 30px 0 60px;
+    }
+    
+    .experience-title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    .experience-section {
+        padding: 25px 0 50px;
+    }
+    
+    .experience-title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+}

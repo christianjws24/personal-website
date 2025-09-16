@@ -2,31 +2,171 @@
     display: flex;
     gap: 20px;
     align-items: flex-start;
+    margin-bottom: 30px;
 }
 
 .experience-item .role {
-    margin: 0;
+    margin: 0 0 10px 0;
     color: #00c7ff;
+    font-size: 24px;
+    line-height: 1.3;
 }
 
 .experience-item .svg {
     fill: white;
     width: 40px;
+    height: 40px;
+    flex-shrink: 0;
 }
 
 .experience-item .duration {
     color: #c1c1c1;
+    margin: 5px 0 15px 0;
+    font-size: 16px;
 }
 
 .experience-item .description {
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .description-list {
     padding: 0 10px;
+    margin: 0;
 }
 
-.description-list li{
+.description-list li {
     padding: 5px 0;
+    line-height: 1.4;
+    font-size: 16px;
 }
 
+.item {
+    flex: 1;
+}
+
+/* Large screens */
+@media (min-width: 1200px) {
+    .experience-item {
+        gap: 25px;
+    }
+    
+    .experience-item .role {
+        font-size: 26px;
+    }
+    
+    .experience-item .svg {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .experience-item .description,
+    .description-list li {
+        font-size: 17px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .experience-item .role {
+        font-size: 22px;
+    }
+    
+    .experience-item .duration {
+        font-size: 15px;
+    }
+    
+    .experience-item .description,
+    .description-list li {
+        font-size: 15px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .experience-item {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+        padding: 20px;
+        background-color: rgba(29, 29, 29, 0.3);
+        border-radius: 10px;
+    }
+    
+    .experience-item .svg {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .experience-item .role {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    
+    .experience-item .duration {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+    
+    .experience-item .description,
+    .description-list li {
+        font-size: 14px;
+    }
+    
+    .description-list {
+        text-align: left;
+        padding: 0 5px;
+    }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    .experience-item {
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .experience-item .svg {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .experience-item .role {
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    
+    .experience-item .duration {
+        font-size: 13px;
+    }
+    
+    .experience-item .description,
+    .description-list li {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+    
+    .description-list li {
+        padding: 3px 0;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 375px) {
+    .experience-item .role {
+        font-size: 16px;
+    }
+    
+    .experience-item .svg {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .experience-item .description,
+    .description-list li {
+        font-size: 12px;
+    }
+}

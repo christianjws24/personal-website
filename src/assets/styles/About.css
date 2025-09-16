@@ -1,4 +1,20 @@
-.about-img-container{
+#about {
+    padding: 60px 0;
+}
+
+#about h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.about-img-container {
     display: flex;
     justify-content: center;
     padding-top: 40px;
@@ -6,8 +22,8 @@
 
 .about-img {
     padding-top: 40px;
-    width: 200px;
-    height: 200px;
+    width: 25vh;
+    height: 25vh;
     border-radius: 50%;
     padding: 5px;
     background: linear-gradient(to left, #00c7ff, #fdff00);
@@ -23,4 +39,93 @@
     object-fit: cover;
 }
 
+/* Large screens */
+@media (min-width: 1200px) {
+    #about h1 {
+        font-size: 42px;
+    }
+    
+    #about p {
+        font-size: 20px;
+    }
+    
 
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    #about {
+        padding: 50px 0;
+    }
+    
+    #about h1 {
+        font-size: 32px;
+    }
+    
+    #about p {
+        font-size: 17px;
+    }
+    
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    #about {
+        padding: 40px 0;
+    }
+    
+    #about h1 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+    
+    #about p {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    
+    .about-img-container {
+        padding-top: 30px;
+    }
+    
+
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+    #about {
+        padding: 30px 0;
+    }
+    
+    #about h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    #about p {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+    
+    .about-img-container {
+        padding-top: 25px;
+    }
+    
+
+}
+
+/* Extra small screens */
+@media (max-width: 375px) {
+    #about h1 {
+        font-size: 22px;
+    }
+    
+    #about p {
+        font-size: 14px;
+    }
+    
+
+}

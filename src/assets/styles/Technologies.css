@@ -1,12 +1,48 @@
 .technologies-section {
-    padding-top: 60px;
+    padding: 60px 0;
+}
+
+.technologies-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.technologies-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .technologies-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 340px);
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
     gap: 26px;
     padding: 50px 0;
-    place-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
+/* Large screens */
+@media (min-width: 1200px) {
+    .technologies-section {
+        padding: 80px 0;
+    }
+    
+    .technologies-section h1 {
+        font-size: 42px;
+    }
+    
+    .technologies-section p {
+        font-size: 20px;
+    }
+    
+    .technologies-container {
+        grid-template-columns: repeat(auto-fill, minmax(360px, 2fr));
+        gap: 30px;
+        max-width: 1400px;
+    }
+}

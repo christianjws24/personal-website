@@ -14,4 +14,29 @@ body {
   max-width: 50%;
   color: white;
   animation: fadeIn 1.2s ease-in;
+  padding: 0 20px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .main {
+    max-width: 80%;
+    padding: 0 15px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .main {
+    max-width: 90%;
+    padding: 0 10px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .main {
+    max-width: 95%;
+    padding: 0 5px;
+  }
 }
