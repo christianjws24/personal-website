@@ -1,9 +1,10 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import '../styles/Contact.css'
 
 export default function Contact() {
   const form = useRef();
+  const [showModal, setShowModal] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,8 +18,9 @@ export default function Contact() {
       )
       .then(
         () => {
-          alert("Mensaje enviado con éxito ✅");
+          setShowModal(true);
           form.current.reset();
+          setTimeout(() => setShowModal(false), 2500); 
         },
         (error) => {
           alert("Error al enviar el mensaje ❌");
@@ -36,9 +38,14 @@ export default function Contact() {
         <textarea name="message" placeholder="Your Message" required></textarea>
         <button type="submit">Send</button>
       </form>
+      {showModal && (
+        <div className="modal-success">
+          <div className="modal-content">
+            <p>Message has sent successfully ✅</p>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
-
-
 
