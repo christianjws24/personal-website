@@ -5,13 +5,13 @@ export default function Hero() {
   return (
     <section className="hero-section">
       <h2 className="hero-title">
-        FRONTEND DEVELOPER
+        FULLSTACK DEVELOPER
       </h2>
       <h2 className="hero-name">
         CHRISTIAN WILHELM
       </h2>
       <p className="hero-description">
-        I'm a Junior Front-End Developer passionate about building modern and interactive web applications.
+        I'm a Fullstack developer passionate about creating and innovating with modern technologies.
       </p>
 
       <div className="hero-buttons">
@@ -26,7 +26,7 @@ export default function Hero() {
           </button>
         </a>
         <DownloadButton 
-          fileUrl="/src/assets/files/Christian-Wilhelm-CV.pdf"
+          fileUrl="/files/Christian_CV.pdf"
           fileName="Christian Wilhelm CV"
           buttonText="Download CV" 
         />

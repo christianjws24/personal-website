@@ -7,11 +7,11 @@ export default function About() {
     <section id="about" className="">
       <h1 className="">About me</h1>
       <div className="">
-        <p className="">I am a Junior Front-End Developer with a strong foundation in React, JavaScript, HTML, and CSS, and experience using modern frameworks like Tailwind CSS and Bootstrap. I hold a Technical Degree in Computer Science and have worked in both professional and personal projects, including creating responsive web applications and interactive user interfaces. My background includes working with Agile methodologies, collaborating remotely, and using tools such as Git, GitHub, and Trello. I am passionate about continuous learning, building clean and maintainable code, and exploring new technologies to deliver engaging digital experiences.</p>
+        <p className="">Motivated Full Stack Developer with practical experience in building and maintaining web applications, both frontend (React, HTML, CSS, JavaScript, Bootstrap, Tailwind CSS) and backend (Nest.js). Expert in responsive design, creating reusable components, and developing modern interfaces. Knowledge of workflow automation with n8n and experience in agile methodologies such as Scrum and hybrid. Strong team player with a constant desire to learn, currently expanding knowledge in Next.js and modern web development practices through continuous training on platforms such as Platzi.</p>
       </div>
       <div className='about-img-container'>
         <div className="about-img">
-          <img src="/src/assets/images/404-page.png" alt="" className="" />
+          <img src="/public/images/me.jpg" alt="" className="" />
         </div>
       </div>
 

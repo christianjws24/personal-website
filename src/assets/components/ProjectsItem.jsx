@@ -1,10 +1,10 @@
 import '../styles/ProjectsItem.css'
 
-export default function ExperienceItem ({img, title, description}) {
+export default function ExperienceItem ({img, title, description, url}) {
 
 
     return (        
-        <a href="/" className="main-item">
+        <a href={url} className="main-item">
             <div className="project-item">
                 <img src={img} alt={`${title} project screenshot`} />
                 <div className="info">

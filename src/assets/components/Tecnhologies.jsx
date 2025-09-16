@@ -6,39 +6,50 @@ export default function Technologies() {
         <section id="technologies" className="technologies-section">
             <h1 className="">Tecnhnologies</h1>
             <div className="">
-                <p className="">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem officiis aperiam incidunt minima est, adipisci amet? Assumenda nesciunt eveniet reiciendis odit obcaecati aperiam vel quam laboriosam provident adipisci, veniam dignissimos.</p>
+                <p className="">Here are the technologies and tools I work with to build modern web applications. I'm constantly learning and expanding my skillset to stay current with industry trends.</p>
             </div>
 
             <div className="technologies-container">
                 <TechnologiesItem
                     title="Frontend"
                     skills={[
-                        { title: "HTML", img: "/src/assets/icons/html.svg" },
-                        { title: "CSS", img: "/src/assets/icons/css.svg" },
-                        { title: "JavaScript", img: "/src/assets/icons/js.svg" },
-                        { title: "React", img: "/src/assets/icons/react.svg" },
-                        { title: "SASS", img: "/src/assets/icons/sass.svg" },
-                        { title: "Bootstrap", img: "/src/assets/icons/bootstrap.svg" },
-                        { title: "TailwindCSS", img: "/src/assets/icons/tailwind.svg" },
-                        { title: "Figma", img: "/src/assets/icons/figma.svg" },
+                        { title: "HTML", img: "/public/icons/html.svg" },
+                        { title: "CSS", img: "/public/icons/css.svg" },
+                        { title: "JavaScript", img: "/public/icons/js.svg" },
+                        { title: "React", img: "/public/icons/react.svg" },
+                        { title: "SASS", img: "/public/icons/sass.svg" },
+                        { title: "Bootstrap", img: "/public/icons/bootstrap.svg" },
+                        { title: "TailwindCSS", img: "/public/icons/tailwind.svg" },
+                        { title: "Figma", img: "/public/icons/figma.svg" },
+                    ]}
+                />
+
+                <TechnologiesItem
+                    title="Backend"
+                    skills={[
+                        { title: "NestJs", img: "/public/icons/nestjs.svg" },
                     ]}
                 />
 
                 <TechnologiesItem
                     title="Learning"
                     skills={[
-                        { title: "Next.js", img: "/src/assets/icons/nextjs.svg" },
-                        { title: "Typescript", img: "/src/assets/icons/typescript.svg" },
+                        { title: "Next.js", img: "/public/icons/nextjs.svg" },
+                        { title: "Typescript", img: "/public/icons/typescript.svg" },
+                        { title: "Flutter", img: "/public/icons/flutter.svg" },
+                        { title: "Python", img: "/public/icons/python.svg" },
+
                     ]}
                 />
 
                 <TechnologiesItem
                     title="Tools"
                     skills={[
-                        { title: "Git", img: "/src/assets/icons/git.svg" },
-                        { title: "Github", img: "/src/assets/icons/github.svg" },
-                        { title: "Wordpress", img: "/src/assets/icons/wordpress.svg" },
-                        { title: "VS Code", img: "/src/assets/icons/vscode.svg" },
+                        { title: "Git", img: "/public/icons/git.svg" },
+                        { title: "Github", img: "/public/icons/github.svg" },
+                        { title: "Wordpress", img: "/public/icons/wordpress.svg" },
+                        { title: "VS Code", img: "/public/icons/vscode.svg" },
+                        { title: "n8n", img: "/public/icons/n8n.svg" },
                     ]}
                 />
             </div>

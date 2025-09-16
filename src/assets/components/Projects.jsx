@@ -9,7 +9,8 @@ export default function Projects() {
 
             <div className="projects-container">
                 <ProjectsItem 
-                    img="/src/assets/images/404-page.png"
+                    url="https://github.com/christianjws24/404-page"
+                    img="/public/images/404-page.png"
                     title="404 Page example"
                     description="A simple and modern 404 Error Page with a clean design and responsive layout."
                 />
