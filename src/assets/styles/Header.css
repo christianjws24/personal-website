@@ -67,47 +67,4 @@
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Ajustes responsive */
-@media (max-width: 640px) {
-    .nav-container {
-        padding: 0 20px;
-    }
 
-    .logo {
-        font-size: 34px;
-    }
-}
-
-@media (max-width: 768px) {
-    .hamburger {
-        display: flex;
-    }
-
-    .nav-ul {
-        position: absolute;
-        top: -15px;
-        right: 0;
-        width: 60%;
-        background-color: black;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding: 20px 0;
-        display: none;
-        height: 100vh;
-        padding: 100px 0px;
-        gap: 40px;
-        font-size: 26px;
-    }
-
-    .nav-ul.show {
-        display: flex;
-    }
-
-    .nav-li{
-    border-bottom: 2px solid white;
-    width: 80%;
-    text-align: center;
-    padding-bottom: 10px;
-    }
-}
