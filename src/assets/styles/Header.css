@@ -86,15 +86,20 @@
     }
     
     .logo {
-        font-size: 40px;
+        font-size: 80px;
     }
     
     .nav-ul {
         gap: 30px;
+        display: none;
     }
     
     .nav-a {
         font-size: 16px;
+    }
+
+    .hamburger {
+        display: none;
     }
 }
 
@@ -111,13 +116,14 @@
     }
     
     .hamburger {
-        display: flex;
+        display: none;
         position: fixed;
         right: 20px;
         top: 28px;
     }
     
     .nav-ul {
+        display: none;
         position: fixed;
         top: 0;
         right: -100%;
@@ -137,6 +143,7 @@
     }
     
     .nav-ul.show {
+        display: flex;
         right: 0;
     }
     
@@ -188,6 +195,7 @@
     }
     
     .hamburger {
+        display: none;
         width: 26px;
         height: 20px;
         right: 15px;

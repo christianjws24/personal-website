@@ -70,16 +70,16 @@
 /* Tablet */
 @media (max-width: 1024px) {
     .experience-item .role {
-        font-size: 22px;
+        font-size: 36px;
     }
     
     .experience-item .duration {
-        font-size: 15px;
+        font-size: 24px;
     }
     
     .experience-item .description,
     .description-list li {
-        font-size: 15px;
+        font-size: 24px;
     }
 }
 

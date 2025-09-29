@@ -4,7 +4,7 @@ import "../styles/Technologies.css"
 export default function Technologies() {
     return (
         <section id="technologies" className="technologies-section">
-            <h1 className="">Tecnhnologies</h1>
+            <h1 className="tecnhologies-title">Tecnhnologies</h1>
             <div className="">
                 <p className="">Here are the technologies and tools I work with to build modern web applications. I'm constantly learning and expanding my skillset to stay current with industry trends.</p>
             </div>

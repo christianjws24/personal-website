@@ -9,7 +9,7 @@ export default function ExperienceItem ({img, title, description, url}) {
                 <img src={img} alt={`${title} project screenshot`} />
                 <div className="info">
                     <h2 className="title">{title}</h2>
-                    <p className="description">{description}</p>
+                    <p className="project-description">{description}</p>
                 </div>
 
             </div>
