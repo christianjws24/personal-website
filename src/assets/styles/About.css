@@ -63,7 +63,12 @@
     }
     
     #about p {
-        font-size: 17px;
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 40px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
 

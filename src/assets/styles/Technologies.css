@@ -66,6 +66,10 @@
         height: 70px;
     }
 
+    .skill-title {
+        font-size:  30px;
+    }
+
 }
 
 @media (max-width: 768px) {
